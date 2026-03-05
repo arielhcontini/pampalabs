@@ -36,7 +36,7 @@
 /* USAMOS CLAMP PARA TAMAÑOS DE FUENTES RESPONSIVOS QUE SE AJUSTAN AUTOMATICAMENTE BASADOS
 EN EL VIEWPORT SIN NECESIDAD DE USAR MEDIAQUERIES */
 
-    --spacing-xs: clamp(0.8rem, 0.48rem + 0.56vw, .72rem);
+    --spacing-xs: clamp(0.8rem, 0.48rem + 0.56vw, .80rem);
     --spacing-sm: clamp(0.72rem, 0.64rem + 0.56vw, .88rem);
     --spacing-md: clamp(.96rem, 0.96rem + 0.56vw, 1.6rem);
     --spacing-xl: clamp(1.6rem, 1.6rem + 0.56vw, 2.4rem);
@@ -241,7 +241,7 @@ overflow: hidden;
 margin: var(--general-margin);
 padding: var(--spacing-xxl) var(--spacing-xs);
  width: 100%;
- height: 960px;  
+ height: 880px;  
 /* GRADIENT */
  background: linear-gradient(190deg,
   oklch(0.0969 0 0 / 1%) 33%,
@@ -254,7 +254,7 @@ oklch(0.6958 0.204259 43.491 / 90%) 100%,
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 320px;
+    max-width: 200px;
     height: auto;
     align-items: center;
     justify-content: center;
